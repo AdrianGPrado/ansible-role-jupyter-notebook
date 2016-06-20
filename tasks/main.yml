@@ -1,2 +1,9 @@
 ---
 # tasks file for jupyter-notebook
+
+- name: launch jupyterhub container
+  docker:
+    name: jupyter_book
+    image: 'jupyter/systemuser'
+    state: reloaded
+    restart_policy: always
