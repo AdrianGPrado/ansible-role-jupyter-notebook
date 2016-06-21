@@ -2,7 +2,9 @@
 # defaults file for jupyter-notebook
 
 jhub_notebook_docker_container: jupyter_notebook
+jhub_notebook_docker_tag: nrg_hub
 
-jhub_notebook_docker_image: 'jupyter/systemuser'
+jhub_notebook_docker_image: jupyter/systemuser
+jhub_notebook_custom_image: notebook_nrg
 
 jhub_notebook_dir: /srv/jupyter_notebook
